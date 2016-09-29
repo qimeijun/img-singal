@@ -1,0 +1,67 @@
+html, body, div {
+    margin: auto;
+    color: #585757;
+}
+
+/**
+    首页
+**/
+.index-form {
+    position:absolute;
+    top:50%;
+    left:50%;
+    text-align: left;
+    width: 300px;
+    margin-left: -150px;
+    margin-top: -100px;
+}
+
+.index-input {
+    height: 30px;
+    width: 300px;
+    color: #585757;
+}
+
+.index-form textarea {
+    width: 300px;
+    height: 100px;
+    color: #585757;
+}
+
+.index-form input[type=button] {
+    border: none;
+    outline: none;
+    background-color: #a9a9a9;
+    height: 30px;
+    width: 60px;
+    color: #585757;
+}
+
+
+/**图片轮播**/ 
+.image-show, .image-choice, .image-button {
+    width: 550px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.image-show img {
+    margin: auto;
+    height: 350px;
+}
+
+.img-display {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+.image-button input[type=button] {
+    border: none;
+    outline: none;
+    background-color: #a9a9a9;
+    height: 30px;
+    width: 60px;
+    color: #585757;
+}
